@@ -1,5 +1,4 @@
-﻿using BarcodeScanning;
-using MauiStringFormatIssue.ViewModels;
+﻿using MauiStringFormatIssue.ViewModels;
 using Microsoft.Extensions.Logging;
 
 namespace MauiStringFormatIssue
@@ -11,7 +10,6 @@ namespace MauiStringFormatIssue
       var builder = MauiApp.CreateBuilder();
       builder
           .UseMauiApp<App>()
-          .UseBarcodeScanning()
           .ConfigureFonts(fonts =>
           {
             fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
